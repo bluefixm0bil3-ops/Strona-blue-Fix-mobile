@@ -1,42 +1,5 @@
 
 <!doctype html>
-<html lang="pl">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>BlueFix Mobile — Serwis telefonów | Rzeszów</title>
-  <meta name="description" content="BlueFix Mobile — szybka i profesjonalna naprawa telefonów w Rzeszowie. Wymiana szybki, baterii, czyszczenie, diagnoza i inne." />
-  <style>
-    :root{--blue:#0b74ff;--dark:#070707;--muted:#6b6b6b;--card:#0f0f10}
-    *{box-sizing:border-box;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
-    body{margin:0;background:linear-gradient(180deg,#000 0%, #070707 100%);color:#e9eef8}
-    a{color:var(--blue);text-decoration:none}
-    header{background:linear-gradient(90deg, rgba(11,116,255,0.06), rgba(11,116,255,0.02));backdrop-filter:blur(2px);position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(255,255,255,0.03)}
-    .container{max-width:980px;margin:0 auto;padding:24px}
-    .nav{display:flex;align-items:center;justify-content:space-between}
-    .brand{display:flex;align-items:center;gap:12px}
-    .logo{display:inline-grid;place-items:center;width:52px;height:52px;background:linear-gradient(180deg,var(--blue),#0070e0);border-radius:10px}
-    .logo svg{width:34px;height:34px;filter:drop-shadow(0 2px 6px rgba(11,116,255,0.15))}
-    .brand h1{font-size:18px;margin:0;letter-spacing:0.5px}
-    nav ul{display:flex;gap:14px;list-style:none;margin:0;padding:0}
-    nav a{padding:10px 8px;border-radius:8px;color:#dfeefd;font-weight:600}
-    nav a:hover{background:rgba(255,255,255,0.02)}
-    .hero{padding:48px 0;display:grid;grid-template-columns:1fr 380px;gap:24px;align-items:center}
-    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
-    .hero h2{font-size:32px;margin:0 0 8px}
-    .hero p{margin:0 0 18px;color:var(--muted)}
-    .cta{display:flex;gap:10px}
-    .btn{background:var(--blue);color:#fff;padding:10px 14px;border-radius:10px;font-weight:700;border:none;cursor:pointer}
-    .btn.secondary{background:transparent;border:1px solid rgba(255,255,255,0.06)}
-    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
-    .service{padding:12px;border-radius:10px;background:rgba(255,255,255,0.01);text-align:center}
-    .service h4{margin:8px 0 4px}
-    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
-    .pricing table{width:100%;border-collapse:collapse}
-    table td,table th{padding:10px;border-bottom:1px solid rgba(255,255,255,0.03);text-align:left}
-    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-    .gallery img{width:100%;height:140px;object-fit:cover;border-radius:8px}
-    footer{padding:20px 0;margin-top:30px;border-top:1px solid rgba(255,255,255,0.03);color:var(--muted)}
     .contact-grid{display:flex;flex-direction:column;gap:8px}
     .icon{width:18px;display:inline-block;vertical-align:middle;margin-right:8px}
     /* responsive */
@@ -210,10 +173,4 @@
     // smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(a=>{
       a.addEventListener('click',e=>{
-        e.preventDefault();const t=document.querySelector(a.getAttribute('href'));
-        if(t) t.scrollIntoView({behavior:'smooth',block:'start'});
-      });
-    });
-  </script>
-</body>
-</html>
+        e.preventDefault();const t=document
